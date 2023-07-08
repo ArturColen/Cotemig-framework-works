@@ -8,6 +8,11 @@ This project was developed with the intention of reviewing the content about Jav
 
 Access the page [here](https://01-javascript-review.surge.sh/).
 
+### 02 - Arrays and objects
+The exercise was performed to fix the concepts learned about array and object methods.
+
+Access the page [here](https://02-array-and-object-exercises.surge.sh/).
+
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
