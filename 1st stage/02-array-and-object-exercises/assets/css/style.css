@@ -1,0 +1,44 @@
+/* === Generic Styles === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #222;
+}
+
+/* === Button Container === */
+#container{
+    width: 345px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 4vh;
+    color: #fff;
+}
+
+.btn{
+    width: 100%;
+    height: 5vh;
+    background-color: #ff6600;
+    border-radius: 15px;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #fff;
+    box-shadow: 3px 3px #fff;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.btn:not(:last-child){
+    margin-bottom: 1em;
+}
+
+.btn:hover{
+    transform: translate(-5px, -5px);
+}
