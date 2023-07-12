@@ -13,6 +13,11 @@ The exercise was performed to fix the concepts learned about array and object me
 
 Access the page [here](https://02-array-and-object-exercises.surge.sh/).
 
+### 03 - Events
+The program was created to reinforce the knowledge acquired about events in JavaScript.
+
+Access the page [here](https://03-events-exercises.surge.sh/).
+
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
