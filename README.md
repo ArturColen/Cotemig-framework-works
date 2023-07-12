@@ -18,7 +18,14 @@ The program was created to reinforce the knowledge acquired about events in Java
 
 Access the page [here](https://03-events-exercises.surge.sh/).
 
+### 04 - Stock of products
+Project developed with the purpose of creating a table that stores the user's product stock, displaying the data at runtime.
+
+Access the page [here](https://04-stock-table.surge.sh/).
+
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
 * [Node.js](https://nodejs.org/pt-br/docs): delivers the ability to interpret JavaScript code, similar to the browser
+
+**Observation: Some of the programs are not designed to be accessed on mobile devices (they are not responsive), so if used on cell phones or tablets, some functions will not run.
