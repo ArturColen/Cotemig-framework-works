@@ -28,4 +28,4 @@ Access the page [here](https://04-stock-table.surge.sh/).
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
 * [Node.js](https://nodejs.org/pt-br/docs): delivers the ability to interpret JavaScript code, similar to the browser
 
-**Observation: Some of the programs are not designed to be accessed on mobile devices (they are not responsive), so if used on cell phones or tablets, some functions will not run.
+**Observation:** Some of the programs are not designed to be accessed on mobile devices (they are not responsive), so if used on cell phones or tablets, some functions will not run.
