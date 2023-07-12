@@ -1,0 +1,39 @@
+/* === Question 05 === */
+#login-box{
+    height: 280px;
+}
+
+#login-box .user-box input:focus ~ label, #login-box .user-box input:valid ~ label{
+    color: var(--orange-color);
+}
+
+#login-box form button{
+    color: var(--orange-color);
+}
+
+#login-box button:hover{
+    background-color: var(--orange-color);
+    box-shadow: 0 0 5px var(--orange-color), 0 0 25px var(--orange-color) 0 0 50px var(--orange-color), 0 0 100px var(--orange-color);
+}
+
+#login-box button span:nth-child(1){
+    background: linear-gradient(90deg, transparent, var(--orange-color));
+}
+
+#login-box button span:nth-child(2){
+    background: linear-gradient(180deg, transparent, var(--orange-color));
+}
+
+#login-box button span:nth-child(3){
+    background: linear-gradient(270deg, transparent, var(--orange-color));
+}
+
+#login-box button span:nth-child(4){
+    background: linear-gradient(360deg, transparent, var(--orange-color));
+}
+
+#text{
+    font-size: 18px;
+    margin: 50px;
+    display: none;
+}

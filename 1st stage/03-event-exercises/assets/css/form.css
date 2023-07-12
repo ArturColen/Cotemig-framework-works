@@ -1,0 +1,163 @@
+body{
+    font-family: sans-serif;
+    background: linear-gradient(#141e30, #243b55);
+}
+
+/* === Form === */
+#login-box{
+    width: 400px;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+}
+  
+#login-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    color: var(--white-color);
+    text-align: center;
+}
+  
+#login-box .user-box{
+    position: relative;
+}
+  
+#login-box .user-box input{
+    width: 100%;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid var(--white-color);
+    padding: 10px 0;
+    background-color: transparent;
+    color: var(--white-color);
+    outline: none;
+}
+
+#login-box .user-box label{
+    font-size: 16px;
+    padding: 10px 0;
+    color: var(--white-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+  
+#login-box .user-box input:focus ~ label, #login-box .user-box input:valid ~ label{
+    font-size: 12px;
+    top: -20px;
+    left: 0;
+}
+  
+#login-box form button{
+    font-size: 16px;
+    margin-top: 40px;
+    border: 0;
+    padding: 10px 20px;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    cursor: pointer;
+}
+  
+#login-box button:hover{
+    border-radius: 5px;
+    color: var(--white-color);
+}
+  
+#login-box button span{
+    position: absolute;
+    display: block;
+}
+  
+#login-box button span:nth-child(1){
+    width: 100%;
+    height: 2px;
+    top: 0;
+    left: -100%;
+    animation: btn-anim1 1s linear infinite;
+}
+  
+#login-box button span:nth-child(2){
+    width: 2px;
+    height: 100%;
+    top: -100%;
+    right: 0;
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+}
+
+#login-box button span:nth-child(3){
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    right: -100%;
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+}
+
+#login-box button span:nth-child(4){
+    width: 2px;
+    height: 100%;
+    bottom: -100%;
+    left: 0;
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+}
+
+/* === Animations === */
+@keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+}
+
+@keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+}
+
+@keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+}
+  
+@keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+}
+
+/* === Media Queries === */
+@media screen and (max-width: 700px) {
+    #login-box{
+        width: 350px;
+    }
+}

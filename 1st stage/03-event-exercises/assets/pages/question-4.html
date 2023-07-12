@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Questão 04</title>
+    <!-- === CSS Files === -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/question-4.css">
+</head>
+<body>
+    <div id="login-box">
+        <h2>Alterar cor a partir da lista</h2>
+        <select onchange="changeBackgroundColor(this)">
+            <option value="">-- Selecione --</option>
+            <option id="red" value="red">Vermelho</option>
+            <option id="green" value="green">Verde</option>
+            <option id="blue" value="blue">Azul</option>
+            <option id="yellow" value="yellow">Amarelo</option>
+        </select>
+    </div>
+
+    <!-- === JS File === -->
+    <script src="../js/question-4.js"></script>
+</body>
+</html>

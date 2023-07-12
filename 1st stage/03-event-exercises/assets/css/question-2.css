@@ -1,0 +1,104 @@
+/* === Question 02 === */
+#login-box form #red{
+    color: var(--red-color);
+}
+
+#login-box #red:hover{
+    background-color: var(--red-color);
+    box-shadow: 0 0 5px var(--red-color), 0 0 25px var(--red-color) 0 0 50px var(--red-color), 0 0 100px var(--red-color);
+    color: var(--white-color);
+}
+
+#login-box #red span:nth-child(1){
+    background: linear-gradient(90deg, transparent, var(--red-color));
+}
+
+#login-box #red span:nth-child(2){
+    background: linear-gradient(180deg, transparent, var(--red-color));
+}
+
+#login-box #red span:nth-child(3){
+    background: linear-gradient(270deg, transparent, var(--red-color));
+}
+
+#login-box #red span:nth-child(4){
+    background: linear-gradient(360deg, transparent, var(--red-color));
+}
+
+#login-box form #green{
+    color: var(--green-color);
+}
+
+#login-box #green:hover{
+    background-color: var(--green-color);
+    box-shadow: 0 0 5px var(--green-color), 0 0 25px var(--green-color) 0 0 50px var(--green-color), 0 0 100px var(--green-color);
+    color: var(--white-color);
+}
+
+#login-box #green span:nth-child(1){
+    background: linear-gradient(90deg, transparent, var(--green-color));
+}
+
+#login-box #green span:nth-child(2){
+    background: linear-gradient(180deg, transparent, var(--green-color));
+}
+
+#login-box #green span:nth-child(3){
+    background: linear-gradient(270deg, transparent, var(--green-color));
+}
+
+#login-box #green span:nth-child(4){
+    background: linear-gradient(360deg, transparent, var(--green-color));
+}
+
+#login-box form #blue{
+    color: var(--blue-color);
+}
+
+#login-box #blue:hover{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    box-shadow: 0 0 5px var(--blue-color), 0 0 25px var(--blue-color) 0 0 50px var(--blue-color), 0 0 100px var(--blue-color);
+}
+
+#login-box #blue span:nth-child(1){
+    background: linear-gradient(90deg, transparent, var(--blue-color));
+}
+
+#login-box #blue span:nth-child(2){
+    background: linear-gradient(180deg, transparent, var(--blue-color));
+}
+
+#login-box #blue span:nth-child(3){
+    background: linear-gradient(270deg, transparent, var(--blue-color));
+}
+
+#login-box #blue span:nth-child(4){
+    background: linear-gradient(360deg, transparent, var(--blue-color));
+}
+
+#login-box form #yellow{
+    color: #ff0;
+}
+
+#login-box #yellow:hover{
+    background-color: #ff0;
+    box-shadow: 0 0 5px #ff0, 0 0 25px #ff0 0 0 50px #ff0, 0 0 100px #ff0;
+    color: var(--black-color);
+}
+
+#login-box #yellow span:nth-child(1){
+    background: linear-gradient(90deg, transparent, #ff0);
+}
+
+#login-box #yellow span:nth-child(2){
+    background: linear-gradient(180deg, transparent, #ff0);
+}
+
+#login-box #yellow span:nth-child(3){
+    background: linear-gradient(270deg, transparent, #ff0);
+}
+
+#login-box #yellow span:nth-child(4){
+    background: linear-gradient(360deg, transparent, #ff0);
+}

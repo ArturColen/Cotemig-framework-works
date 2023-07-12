@@ -1,0 +1,62 @@
+/* === Question 03 === */
+#login-box form a{
+    font-size: 16px;
+    margin-top: 40px;
+    border: 0;
+    padding: 10px 20px;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    letter-spacing: 4px;
+    cursor: default;
+}
+    
+#login-box a:hover{
+    border-radius: 5px;
+    color: var(--white-color);
+}
+
+#login-box form #red{
+    color: var(--red-color);
+}
+
+#login-box #red:hover{
+    background-color: var(--red-color);
+    color: var(--white-color);
+    box-shadow: 0 0 5px var(--red-color), 0 0 25px var(--red-color) 0 0 50px var(--red-color), 0 0 100px var(--red-color);
+}
+
+#login-box form #green{
+    color: var(--green-color);
+}
+
+#login-box #green:hover{
+    background-color: var(--green-color);
+    color: var(--white-color);
+    box-shadow: 0 0 5px var(--green-color), 0 0 25px var(--green-color) 0 0 50px var(--green-color), 0 0 100px var(--green-color);
+}
+
+#login-box form #blue{
+    color: var(--blue-color);
+}
+
+#login-box #blue:hover{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    box-shadow: 0 0 5px var(--blue-color), 0 0 25px var(--blue-color) 0 0 50px var(--blue-color), 0 0 100px var(--blue-color);
+}
+
+#login-box form #yellow{
+    color: #ff0;
+}
+
+#login-box #yellow:hover{
+    background-color: #ff0;
+    color: var(--black-color);
+    box-shadow: 0 0 5px #ff0, 0 0 25px #ff0 0 0 50px #ff0, 0 0 100px #ff0;
+}
