@@ -23,6 +23,11 @@ Project developed with the purpose of creating a table that stores the user's pr
 
 Access the page [here](https://04-stock-table.surge.sh/).
 
+### 05 - Menu and BMI
+Exercises carried out in order to fix the content learned during the 1st stage.
+
+Access the page [here](https://05-menu-and-bmi-projects.surge.sh/).
+
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
