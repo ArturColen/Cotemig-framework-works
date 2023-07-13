@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <!-- === CSS Files === -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/food-menu.css">
+</head>
+<body>
+    <h1>Cardápio</h1>
+    <!-- === Form To Fill in Menu === -->
+    <form>
+        <div>
+            <label for="food">Insira o nome da comida para cadastrar:</label> <br>
+            <input type="text" id="food">
+            <br>
+            <div id="edit-div" class="edit-div">
+                <label for="edited">Insira o novo valor:</label> <br>
+                <input type="text" id="edited"> 
+            </div>
+        </div>
+        <div>
+            <label for="day">Insira o dia da semana para cadastrar a comida:</label> <br>
+            <select name="day" id="day">
+                <option value="monday">Segunda-feira</option>
+                <option value="tuesday">Terça-feira</option>
+                <option value="wednesday">Quarta-feira</option>
+                <option value="thursday">Quinta-feira</option>
+                <option value="friday">Sexta-feira</option>
+                <option value="saturday">Sábado</option>
+                <option value="sunday">Domingo</option>
+            </select>
+        </div>
+    </form>
+    <div>
+        <br> <br>
+        <table>
+            <tr>
+                <td class="days">Segunda</td>
+                <td class="days">Terça</td>
+                <td class="days">Quarta</td>
+                <td class="days">Quinta</td>
+                <td class="days">Sexta</td>
+                <td class="days">Sábado</td>
+                <td class="days">Domingo</td>
+            </tr>
+            <tr>
+                <td id="monday"></td>
+                <td id="tuesday"></td>
+                <td id="wednesday"></td>
+                <td id="thursday"></td>
+                <td id="friday"></td>
+                <td id="saturday"></td>
+                <td id="sunday"></td>
+            </tr>
+        </table>
+    </div>
+    <!-- === Menu Button === -->
+    <div id="menu">
+        <a href="../../index.html"> <button class="btns">Voltar ao menu</button> </a>
+    </div>
+
+    <!-- === JS File === -->
+    <script src="../js/food-menu.js"></script>
+</body>
+</html>

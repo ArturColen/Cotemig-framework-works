@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <!-- === CSS Files === -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/bmi.css">
+</head>
+<body>
+    <!-- === Form === -->
+    <div id="container">
+        <div>
+            <h1 id="title">Calculadora de IMC</h1>
+        </div>
+        <div>
+            <form id="bmi-form">
+                <label for="weight">Digite seu peso (em kg):</label>
+                <input type="text" id="weight" class="form-input" required> <br>
+                <label for="height">Digite sua altura (em metros):</label>
+                <input type="text" id="height" class="form-input" required>
+                <button type="submit" id="btn">Calcular</button>
+            </form>
+        </div>
+        <div id="result"></div>
+    </div>
+    <!-- === Menu Button === -->
+    <div id="menu">
+        <a href="../../index.html"> <button class="btns">Voltar ao menu</button> </a>
+    </div>
+
+    <!-- === JS File === -->
+    <script src="../js/bmi.js"></script>
+</body>
+</html>

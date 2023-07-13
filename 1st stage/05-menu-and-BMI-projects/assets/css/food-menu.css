@@ -1,0 +1,107 @@
+/* === Font === */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    min-height: 100vh;
+    color: var(--white-color);
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    margin: 10vh 0;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/* === Form === */
+form{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+input, select{
+    width: 13vw;
+    height: 3.7vh;
+    margin: 3vh 0;
+    text-align: center;
+    background-color: transparent;
+    border: 3px solid var(--primary-color);
+    outline: none;
+    color: var(--primary-color);
+}
+
+input:focus, select:focus{
+    border: 3.5px solid var(--primary-color);
+}
+
+input{
+    padding: 7px;
+}
+
+select{
+    margin-bottom: 5vh;
+}
+
+option{
+    background-color: #333;
+}
+
+/* === Table === */
+#edit-div{
+    display: none;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+td{
+    padding: 20px;
+}
+
+.days{
+    padding-bottom: 4vh;
+    border-bottom: 1px solid var(--white-color);
+}
+
+.delete{
+    margin-right: .7vw;
+}
+
+.delete, .edit{
+    width: 20px;
+}
+
+.edit{
+    margin-left: .7vw;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+/* === Menu Button === */
+#menu{
+    margin: 20vh auto;
+    width: 200px;
+}
+
+#menu .btns{
+    font-size: 15px;
+    background-color: #f00;
+}

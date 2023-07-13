@@ -1,0 +1,11 @@
+/* === Button Container === */
+#container{
+    width: 345px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 4vh;
+    color: var(--white-color);
+}

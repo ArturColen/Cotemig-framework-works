@@ -1,0 +1,81 @@
+body{
+    font-size: 15px;
+    height: auto;
+}
+
+/* === Form === */
+#container{
+    width: 330px;
+    height: 350px;
+    margin: 100px auto;
+    border-radius: 20px;
+    background-color: #f7f7f7;
+}
+
+#title{
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+    background-color: gainsboro;
+    color: dimgray;
+    text-align: center;
+}
+
+#bmi-form{
+    padding: 20px 20px 0 20px;
+}
+
+.form-input{
+    padding: 5px 5px 8px 8px;
+    background-color: var(--white-color);
+}
+
+.form-input#peso{
+    width: 120px;
+    margin-bottom: 2vh;
+}
+
+.form-input#altura{
+    width: 60px;
+}
+
+.form-input:focus{
+    border: 3px solid var(--primary-color);
+    outline: none;
+}
+
+#btn{
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    margin: 30px auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    display: block;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+#result{
+    font-size: 20px;
+    margin-top: 5px;
+    text-align: center;
+    display: none;
+}
+
+/* === Menu Button === */
+#menu{
+    margin: 20vh auto 0 auto;
+    width: 200px;
+}
+
+#menu .btns{
+    font-size: 15px;
+    background-color: #f00;
+}
