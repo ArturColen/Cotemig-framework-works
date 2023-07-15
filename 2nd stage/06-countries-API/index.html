@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Artur Bomtempo">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de países</title>
+    <!-- === CDN JS === -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- === CSS File === -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div id="title">
+        <h1>Desafio países</h1>
+    </div>
+    <!-- === Country Container === -->
+    <div id="country-container">
+        <div class="country-list" id="left-container">
+            <h5>Países (<span id="count-countries"></span>)</h5>
+            <h6>População total: <span id="total-population-list"></span></h6>
+            <div id="buttons">
+                <button class="btn" id="africa">África</button>
+                <button class="btn" id="america">América</button>
+                <button class="btn" id="antartida">Antártida </button>
+                <button class="btn" id="asia">Ásia</button>
+                <button class="btn" id="europe">Europa</button>
+                <button class="btn" id="oceania">Oceania</button>
+            </div>
+            <input type="text" placeholder="Digite o nome do país">
+            <table id="table-countries"></table>
+        </div>
+        <div class="country-list" id="right-container">
+            <h5>Países (<span id="count-favorite-countries"></span>)</h5>
+            <h6>População total: <span id="total-favorite-population-list"></span></h6>
+            <table id="table-favorite-countries"></table>
+        </div>
+    </div>
+
+    <!-- === JS File === -->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

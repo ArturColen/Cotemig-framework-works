@@ -1,0 +1,125 @@
+/* === Generic Styles === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin: 0 10px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+/* === Title === */
+#title h1{
+    color: #fff;
+}
+
+/* === Input === */
+input::placeholder{
+    color: #413e3e;
+}
+
+/* === Country Container === */
+#country-container{
+    display: flex;
+}
+
+.country{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.add, .remove{
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: ease all .5s;
+}
+
+.add{
+    background-color: #006400;
+}
+
+.add:hover{
+    border: 2px solid #006400;
+    background-color: #fff;
+    color: #006400;
+}
+
+.remove{
+    background-color: #8b0000;
+}
+
+.remove:hover{
+    border: 2px solid #8b0000;
+    background-color: #fff;
+    color: #8b0000;
+}
+
+.country-list{
+    width: 580px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#left-container{
+    background-color: #7289da;
+}
+
+#right-container{
+    background-color: #fdfd96;
+}
+
+tr{
+    border: 0;
+}
+
+td{
+    vertical-align: top;
+}
+
+/* === Buttons Continents === */
+.btn{
+    color: #000;
+}
+
+#africa{
+    background-color: #90ee90;
+}
+
+#america{
+    background-color: #fa8072;
+}
+
+#antartida{
+    background-color: #fff;
+}
+
+#asia{
+    background-color: #ffff00;
+}
+
+#europe{
+    background-color: #87cefa;
+}
+
+#oceania{
+    background-color: #ee82ee;
+}
