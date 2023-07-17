@@ -35,7 +35,6 @@ fetch('https://restcountries.com/v2/all')
         inputCountry.addEventListener('keyup', displayCountries);
     })
 
-
 function render() {
     globalPopulation = 0;
     countCountry = 0;
@@ -98,14 +97,12 @@ function renderF() {
     totalFavoritePopulation.innerHTML = globalPopulation;
 }
 
-
 function favorite(index) {
     favorites[index] = country[index];
     country[index] = '';
     render();
     renderF();
 }
-
 
 function removeFav(index) {
     country[index] = favorites[index];

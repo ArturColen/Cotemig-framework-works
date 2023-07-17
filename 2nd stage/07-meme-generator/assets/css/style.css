@@ -1,0 +1,56 @@
+/* === Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #222;
+}
+
+.container{
+    text-align: center;
+}
+
+#title{
+    margin: 4vh 0;
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 3.5em;
+    color: #fff;
+}
+
+button{
+    margin-bottom: 8vh;
+}
+
+/* === Meme Container === */
+#img-container{
+    padding: 0;
+    width: 30%;
+}
+
+#img-container .subtitle{
+    background-color: #000;
+    color: #fff;
+}
+
+#img-container .subtitle span{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3em;
+}
+
+#img-container .subtitle span#meme-name{
+    font-weight: bold;
+}
+
+#img-container img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#img-container .subtitle#text-meme{
+    margin-bottom: 4vh;
+}
