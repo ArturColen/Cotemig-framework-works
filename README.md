@@ -24,7 +24,7 @@ Project developed with the purpose of creating a table that stores the user's pr
 Access the page [here](https://04-stock-table.surge.sh/).
 
 ### 05 - Menu and BMI
-Exercises carried out in order to fix the content learned during the 1st stage.
+The projects were developed in order to fix the contents learned throughout the 1st stage and consist of a weekly menu, where the user fills in the table with the foods he will consume each day and a BMI calculator to be able to measure body mass from the user's height and weight.
 
 Access the page [here](https://05-menu-and-bmi-projects.surge.sh/).
 
@@ -32,6 +32,11 @@ Access the page [here](https://05-menu-and-bmi-projects.surge.sh/).
 Project created in order to fix the knowledge learned about HTTP requests with JavaScript.
 
 Access the page [here](https://06-countries-api.surge.sh/).
+
+### 07 - Meme generator
+The program consists of a generator of memes from the consummation of two APIS (one of images of known memes and another of random phrases).
+
+Access the page [here](https://07-meme-generator.surge.sh/).
 
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
