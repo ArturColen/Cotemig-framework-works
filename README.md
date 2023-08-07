@@ -43,4 +43,17 @@ Access the page [here](https://07-meme-generator.surge.sh/).
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
 * [Node.js](https://nodejs.org/pt-br/docs): allows the execution of JavaScript code outside the browser
 
+## 📁 Project access
+For projects developed in React, the following steps should be followed to run them locally:
+
+#### 1. Install [Node.js](https://nodejs.org/en/download) on your machine
+#### 2. Clone [this repository](https://github.com/ArturColen/Cotemig-frameworks-works) on your machine
+* Create a folder on your computer for this program
+* Open the `terminal` inside this folder
+* Copy the [URL](https://github.com/ArturColen/Cotemig-framework-works.git) from the repository
+* Type `git clone <URL copied>` and press `enter`
+#### 3. Navigate to the folder of the project you want to test using the command `cd <folder name>`
+#### 4. Inside the selected folder, run the command `npm install` to create the node_modules folder in your project
+#### 5. Finally, run the command `npm run dev` and open in your browser the IP address that appears in the terminal
+
 **Observation:** Some of the programs are not designed to be accessed on mobile devices (they are not responsive), so if used on cell phones or tablets, some functions will not run.
