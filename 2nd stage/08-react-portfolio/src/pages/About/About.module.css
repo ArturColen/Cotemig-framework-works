@@ -1,0 +1,51 @@
+.about{
+    width: 100%;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio{
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.bio .profile{
+    width: 400px;
+}
+
+.bio span{
+    font-weight: bold;
+    color: var(--green-color);
+}
+
+.bio strong{
+    font-weight: bold;
+    color: var(--black-color);
+}
+
+.texts h2, p{
+    margin-bottom: 1rem;
+}
+
+.techs{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.icons img{
+    height: 50px;
+    margin-right: 1vw;
+}

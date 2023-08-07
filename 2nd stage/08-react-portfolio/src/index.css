@@ -1,0 +1,25 @@
+:root{
+  font-family: 'Fira Code', monospace;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  /* === Color Variables === */
+  --green-color: #90ee90;
+  --soft-white-color: #f1f1f1;
+  --white-color: #fefefe;
+  --black-color: #000;
+  --gray-color: #222;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection{
+  background-color: var(--black-color);
+  color: var(--green-color);
+}
