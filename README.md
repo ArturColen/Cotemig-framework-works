@@ -38,6 +38,9 @@ The program consists of a generator of memes from the consummation of two APIS (
 
 Access the page [here](https://07-meme-generator.surge.sh/).
 
+### 08 - Portfolio
+Creation of a portfolio site with some of my skills and projects developed in order to introduce to React studies. In this project, components are used, the GitHub API is consumed, the project routes are created, among others.
+
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
