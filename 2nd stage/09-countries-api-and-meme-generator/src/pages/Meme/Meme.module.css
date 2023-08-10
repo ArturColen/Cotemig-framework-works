@@ -1,0 +1,45 @@
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.generate_button{
+    margin-bottom: 8vh;
+    border: 2px solid var(--blue-color);
+    border-radius: 5px;
+    padding: .8em 2em;
+    background-color: transparent;
+    color: var(--blue-color);
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.generate_button:hover{
+    background-color: var(--blue-color);
+    color: var(--white-color);
+}
+
+.img_container .subtitle{
+    background-color: #000;
+    color: #fff;
+}
+
+.img_container .subtitle span{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3em;
+}
+
+.img_container .subtitle span.meme_name{
+    font-weight: bold;
+}
+
+.img_container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img_container .subtitle.text_meme{
+    margin-bottom: 4vh;
+}
