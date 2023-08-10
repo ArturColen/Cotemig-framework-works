@@ -21,8 +21,8 @@
 }
 
 .img_container .subtitle{
-    background-color: #000;
-    color: #fff;
+    background-color: var(--black-color);
+    color: var(--white-color);
 }
 
 .img_container .subtitle span{

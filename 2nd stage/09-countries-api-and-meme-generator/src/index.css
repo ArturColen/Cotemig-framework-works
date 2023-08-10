@@ -6,6 +6,7 @@
   -webkit-text-size-adjust: 100%;
   /* === Color Variables === */
   --blue-color: #048cd0;
+  --bg-color: #222;
   --white-color: #fff;
   --black-color: #000;
 }
@@ -17,5 +18,5 @@
 }
 
 body{
-  background-color: #222;
+  background-color: var(--bg-color);
 }

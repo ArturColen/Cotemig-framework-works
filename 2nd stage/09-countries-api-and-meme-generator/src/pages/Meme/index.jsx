@@ -46,7 +46,7 @@ function Meme() {
             <div className={styles.container}>
                 <button className={styles.generate_button} onClick={handleGenerateClick}>Clique aqui</button>
                 {buttonClicked && (
-                    <div className={`${styles.img_container}`}>
+                    <div className={styles.img_container}>
                         <div className={styles.subtitle}>
                             <span className={styles.meme_name}>{memeName}</span>
                         </div>
