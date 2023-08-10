@@ -41,6 +41,9 @@ Access the page [here](https://07-meme-generator.surge.sh/).
 ### 08 - Portfolio
 Creation of a portfolio site with some of my skills and projects developed in order to introduce to React studies. In this project, components are used, the GitHub API is consumed, the project routes are created, among others.
 
+### 09 - Countries API and meme generator in React
+The project consists of joining programs 6 and 7 present in this repository, but made in React, with the aim of reviewing for the final exam of the 2nd stage.
+
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
