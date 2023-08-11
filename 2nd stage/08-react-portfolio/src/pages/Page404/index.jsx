@@ -9,7 +9,7 @@ function Page404() {
                 <strong className={styles.green_text}>Página não encontrada.</strong>
             </div>
         </>
-    )
+    );
 }
 
 export default Page404;

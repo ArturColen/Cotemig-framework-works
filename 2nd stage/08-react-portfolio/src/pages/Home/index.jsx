@@ -19,7 +19,7 @@ function Home() {
                 </figure>
             </section>
         </>
-    )
+    );
 }
 
 export default Home;

@@ -3,10 +3,12 @@ import PropTypes from 'prop-types';
 
 function Container({ children }) {
     return (
-        <section className={styles.container}>
-            {children}
-        </section>
-    )
+        <>
+            <section className={styles.container}>
+                {children}
+            </section>
+        </>
+    );
 }
 
 Container.PropTypes = {

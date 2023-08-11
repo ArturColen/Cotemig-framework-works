@@ -5,14 +5,16 @@ import { Outlet } from 'react-router-dom';
 
 function Base() {
     return (
-        <main>
-            <Header />
-            <Container>
-                <Outlet />
-            </Container>
-            <Footer />
-        </main>
-    )
+        <>
+            <main>
+                <Header />
+                <Container>
+                    <Outlet />
+                </Container>
+                <Footer />
+            </main>
+        </>
+    );
 }
 
 export default Base;

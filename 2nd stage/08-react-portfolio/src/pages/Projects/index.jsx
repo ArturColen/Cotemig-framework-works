@@ -28,11 +28,11 @@ function Projects() {
                         }
                     </section>
                 ) : (
-                        <p>Carregando repositórios...</p>
+                    <p>Carregando repositórios...</p>
                 )
             }
         </section>
-    )
+    );
 }
 
 export default Projects;
