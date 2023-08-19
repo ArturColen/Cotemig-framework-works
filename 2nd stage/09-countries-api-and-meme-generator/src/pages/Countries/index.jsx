@@ -7,21 +7,24 @@ function Countries() {
     const [countriesData, setCountriesData] = useState([]);
 
     useEffect(() => {
+        const loadCountryAPI = async () => {
+            try {
+                const response = await fetch('https://restcountries.com/v2/all');
+
+                if (!response.ok) {
+                    throw new Error('Falha ao buscar dados');
+                }
+
+                const data = await response.json();
+                setCountriesData(data);
+            }
+            catch (error) {
+                console.error('Erro ao buscar dados:', error);
+            }
+        }
+
         loadCountryAPI();
     }, []);
-
-    const loadCountryAPI = () => {
-        fetch('https://restcountries.com/v2/all')
-            .then((response) => {
-                return response.json();
-            })
-            .then((result) => {
-                setCountriesData(result);
-            })
-            .catch((error) => {
-                console.error("Erro ao buscar países", error);
-            });
-    }
 
     return (
         <>
@@ -30,7 +33,7 @@ function Countries() {
             {
                 countriesData.length > 0 ? (
                     <div className={styles.countries}>
-                        {countriesData.map(country => (
+                        {countriesData.map((country) => (
                             <div key={country.name} className={styles.country_div}>
                                 <img src={country.flags.png} alt={country.name} />
                                 <h2>{country.name}</h2>
