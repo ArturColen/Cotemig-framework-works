@@ -9,35 +9,40 @@ function Meme() {
     const [quoteText, setQuoteText] = useState('');
     const [buttonClicked, setButtonClicked] = useState(false);
 
-    const handleGenerateClick = () => {
-        fetch('https://api.imgflip.com/get_memes')
-            .then((response) => {
-                return response.json();
-            })
-            .then((result) => {
-                const memes = result.data.memes;
-                const randomMeme = memes[Math.floor(Math.random() * memes.length)];
+    const loadMemesAPI = async () => {
+        try {
+            const memeResponse = await fetch('https://api.imgflip.com/get_memes');
 
-                setMemeName(randomMeme.name);
-                setMemeUrl(randomMeme.url);
-                setButtonClicked(true);
-            })
-            .catch(error => {
-                console.log('Erro na requisição de memes: ', error);
-            });
+            if (!memeResponse.ok) {
+                throw new Error('Falha ao buscar dados da API');
+            }
 
-        fetch('https://api.quotable.io/random')
-            .then((response) => {
-                return response.json();
-            })
-            .then((result) => {
-                const quote = result.content;
-                setQuoteText(quote);
-            })
-            .catch(error => {
-                console.log('Erro na requisição de citações: ', error);
-            });
-    }
+            const memeData = await memeResponse.json();
+            const memes = memeData.data.memes;
+            const randomMeme = memes[Math.floor(Math.random() * memes.length)];
+
+            const quoteResponse = await fetch('https://api.quotable.io/random');
+
+            if (!quoteResponse.ok) {
+                throw new Error('Falha ao buscar dados');
+            }
+
+            const quoteData = await quoteResponse.json();
+            const quote = quoteData.content;
+
+            setMemeName(randomMeme.name);
+            setMemeUrl(randomMeme.url);
+            setQuoteText(quote);
+        }
+        catch (error) {
+            console.error('Erro nas requisições: ', error);
+        }
+    };
+
+    const handleGenerateClick = async () => {
+        setButtonClicked(true);
+        await loadMemesAPI();
+    };
 
     return (
         <>
@@ -45,19 +50,21 @@ function Meme() {
             <Title text="Gerador de memes" />
             <div className={styles.container}>
                 <button className={styles.generate_button} onClick={handleGenerateClick}>Clique aqui</button>
-                {buttonClicked && (
-                    <div className={styles.img_container}>
-                        <div className={styles.subtitle}>
-                            <span className={styles.meme_name}>{memeName}</span>
+                {
+                    buttonClicked && (
+                        <div className={styles.img_container}>
+                            <div className={styles.subtitle}>
+                                <span className={styles.meme_name}>{memeName}</span>
+                            </div>
+                            <div className={styles.meme_image}>
+                                <img src={memeUrl} alt="Imagem do meme" />
+                            </div>
+                            <div className={`${styles.subtitle} ${styles.text_meme}`}>
+                                <span className={styles.text}>{quoteText}</span>
+                            </div>
                         </div>
-                        <div className={styles.meme_image}>
-                            <img src={memeUrl} alt="Imagem do meme" />
-                        </div>
-                        <div className={`${styles.subtitle} ${styles.text_meme}`}>
-                            <span className={styles.text}>{quoteText}</span>
-                        </div>
-                    </div>
-                )}
+                    )
+                }
             </div>
         </>
     );
