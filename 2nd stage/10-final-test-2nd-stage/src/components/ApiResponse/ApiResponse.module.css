@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    text-align: center;
+}
+
+.item .question{
+    max-width: 50%;
+    font-size: 1.8em;
+    margin: 0 auto 1vh auto;
+    padding: .3em;
+    background-color: var(--green-color);
+}
+
+.item .difficulty{
+    font-size: 1em;
+    margin-bottom: 8vh;
+    padding: .3em;
+    background-color: var(--black-color);
+    color: var(--green-color);
+    display: inline-block;
+}

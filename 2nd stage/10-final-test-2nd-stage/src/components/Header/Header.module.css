@@ -1,0 +1,17 @@
+.header{
+    width: 100%;
+    height: 7vh;
+    margin-bottom: 10vh;
+    background-color: var(--black-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    color: var(--white-color);
+}
+
+.title:hover {
+    color: var(--green-color);
+}
