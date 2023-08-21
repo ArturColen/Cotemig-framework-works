@@ -51,7 +51,7 @@ Access the page [here](https://09-countries-api-and-meme-generator.vercel.app/).
 ### 10 - Final test 2nd stage
 The program was developed to assess the knowledge acquired about React and HTTP requests during the second stage of the course. It consists of a page on which questions about games and their degree of difficulty are displayed (based on data extracted from an external API).
 
-Access the page [here](https://09-countries-api-and-meme-generator.vercel.app/).
+Access the page [here](https://10-final-test-2nd-stage.vercel.app/).
 
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
