@@ -34,7 +34,12 @@ function Projects() {
                         <section className={styles.list}>
                             {
                                 repositories.map((repo) => (
-                                    <Card key={repo.id} name={repo.name} description={repo.description} html_url={repo.html_url} />
+                                    <Card
+                                        key={repo.id}
+                                        name={repo.name}
+                                        description={repo.description}
+                                        html_url={repo.html_url}
+                                    />
                                 ))
                             }
                         </section>
