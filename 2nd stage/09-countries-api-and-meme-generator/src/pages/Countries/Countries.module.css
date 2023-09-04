@@ -6,20 +6,6 @@
     gap: 20px;
 }
 
-.country_div{
-    padding: 15px;
-    background-color: var(--blue-color);
-}
-
-hr{
-    opacity: .4;
-}
-
-img{
-    width: 100%;
-    height: 150px;
-}
-
 .message{
     color: var(--white-color);
     text-align: center;

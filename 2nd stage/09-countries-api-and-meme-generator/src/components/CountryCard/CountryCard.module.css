@@ -1,0 +1,19 @@
+.country_div{
+    padding: 15px;
+    background-color: var(--blue-color);
+}
+
+.country_div hr{
+    opacity: .4;
+}
+
+.country_div img{
+    width: 100%;
+    height: 150px;
+}
+
+@media screen and (max-width: 576px){
+    .country_div img{
+        height: auto;
+    }
+}
