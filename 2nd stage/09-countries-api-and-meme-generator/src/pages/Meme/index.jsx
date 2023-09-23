@@ -68,6 +68,6 @@ function Meme() {
             </div>
         </>
     );
-}
+};
 
 export default Meme;

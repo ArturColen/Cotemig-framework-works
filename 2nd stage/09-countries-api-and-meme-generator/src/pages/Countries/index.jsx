@@ -49,6 +49,6 @@ function Countries() {
             }
         </>
     );
-}
+};
 
 export default Countries;

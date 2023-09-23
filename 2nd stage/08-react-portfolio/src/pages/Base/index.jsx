@@ -15,6 +15,6 @@ function Base() {
             </main>
         </>
     );
-}
+};
 
 export default Base;

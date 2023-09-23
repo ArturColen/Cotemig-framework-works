@@ -12,7 +12,7 @@ function AppRoutes() {
                 <Route path="/meme" element={<Meme />} ></Route>
             </Routes>
         </BrowserRouter>
-    )
-}
+    );
+};
 
 export default AppRoutes;
