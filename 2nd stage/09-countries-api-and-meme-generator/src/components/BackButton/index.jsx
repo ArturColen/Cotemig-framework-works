@@ -10,6 +10,6 @@ function BackButton() {
             </Link>
         </>
     );
-};
+}
 
 export default BackButton;

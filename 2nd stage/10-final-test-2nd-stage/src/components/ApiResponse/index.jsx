@@ -52,6 +52,6 @@ function ApiResponse() {
             )}
         </div>
     );
-};
+}
 
 export default ApiResponse;

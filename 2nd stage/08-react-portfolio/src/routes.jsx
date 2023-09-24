@@ -20,6 +20,6 @@ function AppRoutes() {
             </Routes>
         </BrowserRouter>
     );
-};
+}
 
 export default AppRoutes;

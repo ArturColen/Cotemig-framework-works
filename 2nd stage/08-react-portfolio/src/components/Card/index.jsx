@@ -22,6 +22,6 @@ function Card({ name, description, html_url }) {
             </section>
         </>
     );
-};
+}
 
 export default Card;

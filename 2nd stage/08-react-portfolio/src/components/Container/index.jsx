@@ -9,7 +9,7 @@ function Container({ children }) {
             </section>
         </>
     );
-};
+}
 
 Container.PropTypes = {
     children: PropTypes.any

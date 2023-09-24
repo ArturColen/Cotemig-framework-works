@@ -12,6 +12,6 @@ function CountryCard({ name, flag, population }) {
             </div>
         </>
     );
-};
+}
 
 export default CountryCard;
