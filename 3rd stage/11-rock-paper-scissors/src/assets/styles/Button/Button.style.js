@@ -8,4 +8,5 @@ export const StyledButton = styled.button`
     line-height: 24px;
     border-radius: 12px;
     background-color: #ececec;
+    color: #1a1a1a;
 `;
