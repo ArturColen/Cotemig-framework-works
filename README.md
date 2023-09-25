@@ -53,7 +53,13 @@ The program was developed to assess the knowledge acquired about React and HTTP 
 
 Access the page [here](https://10-final-test-2nd-stage.vercel.app/).
 
+### 11 - Rock, paper and scissors
+Creation of the classic hand game with React in order to reinforce the concepts learned at the beginning of this stage, especially regarding hooks.
+
+Access the page [here](https://11-rock-paper-scissors.vercel.app/).
+
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
 * [Node.js](https://nodejs.org/pt-br/docs): allows the execution of JavaScript code outside the browser
+* [Styled-components](https://styled-components.com/docs): create CSS styles for React components in an elegant and encapsulated way
