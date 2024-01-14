@@ -58,8 +58,21 @@ Creation of the classic hand game with React in order to reinforce the concepts 
 
 Access the page [here](https://11-rock-paper-scissors.vercel.app/).
 
+### 12 Final test 3rd stage
+Project created as a final test for the Framework subject with the aim of practicing the main skills acquired throughout the year. To do this, a program was developed to list notes that can also be deleted, so it was possible to train the content learned about React, LocalStorage, Vite, among others.
+
+Access the page [here](https://12-final-test-3rd-stage.vercel.app/).
+
 ## 💻 Technologies used 
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): programming language
 * [React](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): create user interfaces on web pages
 * [Node.js](https://nodejs.org/pt-br/docs): allows the execution of JavaScript code outside the browser
 * [Styled-components](https://styled-components.com/docs): create CSS styles for React components in an elegant and encapsulated way
+
+**Observation:** These programs are designed to be accessed on computers (they are not responsive), so if used on mobile devices, some functions will not run.
+
+## ⚙️ More projects
+Throughout the course, I did some school work in groups. For greater organization, I've distributed these projects in different repositories. To access them, just click on one of the options below:
+* [CraftAPI](https://github.com/ArturColen/CraftAPI)
+* [To-do list](https://github.com/ArturColen/To-do-list)
+* [School Timetable](https://github.com/ArturColen/School-timetable)
