@@ -1,9 +1,7 @@
 import { useState } from 'react';
-import { AddNotesButton, ButtonContainer, PageButton, NoteForm, NoteInput, Title } from '../../assets/styles/components/NoteApp/NoteApp.style';
+import { AddNotesButton, ButtonContainer, PageButton, NoteForm, NoteInput, Title, AddIcon, DeleteIcon } from '../../assets/styles/components/NoteApp/NoteApp.style';
 import { Link } from 'react-router-dom';
 import { v4 as uuidv4 } from 'uuid';
-import add from '../../assets/Images/Icons/add-icon.png';
-import exclude from '../../assets/Images/Icons/delete-icon.png';
 import { useLocalStorage } from '@uidotdev/usehooks';
 import { NoteList } from '../NoteList';
 
@@ -50,10 +48,10 @@ export function NoteApp() {
         <>
             <ButtonContainer>
                 <Link to="/notas">
-                    <PageButton onClick={handleActiveNotes}>Notas adicionadas<img src={add} /></PageButton>
+                    <PageButton onClick={handleActiveNotes}>Notas adicionadas <AddIcon /></PageButton>
                 </Link>
                 <Link to="/notas-excluidas">
-                    <PageButton onClick={handleDeletedNotes}>Notas excluídas<img src={exclude} /></PageButton>
+                    <PageButton onClick={handleDeletedNotes}>Notas excluídas <DeleteIcon /></PageButton>
                 </Link>
             </ButtonContainer>
             <Title>

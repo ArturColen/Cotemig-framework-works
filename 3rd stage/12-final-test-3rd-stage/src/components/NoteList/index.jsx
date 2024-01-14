@@ -1,5 +1,4 @@
-import { DeleteButton, NotesList, NoteListItem, NoteText, WarningText } from '../../assets/styles/components/NoteList/NoteList.style';
-import trash from '../../assets/Images/Icons/trash-icon.png';
+import { DeleteButton, NotesList, NoteListItem, NoteText, WarningText, TrashIcon } from '../../assets/styles/components/NoteList/NoteList.style';
 
 export function NoteList({ notes, onDeleteNote, currentPage }) {
     return (
@@ -17,7 +16,7 @@ export function NoteList({ notes, onDeleteNote, currentPage }) {
                             <>
                                 <NoteText>{note.text}</NoteText>
                                 <DeleteButton onClick={() => onDeleteNote(note.id)}>
-                                    <img src={trash} />
+                                    <TrashIcon />
                                 </DeleteButton>
                             </>
                         )}

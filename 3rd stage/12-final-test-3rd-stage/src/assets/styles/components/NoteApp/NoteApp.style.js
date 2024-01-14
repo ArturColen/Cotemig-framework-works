@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { FaCirclePlus } from 'react-icons/fa6';
+import { TiDelete } from 'react-icons/ti';
 
 export const ButtonContainer = styled.div`
     display: flex;
@@ -96,3 +98,15 @@ export const AddNotesButton = styled.button`
         background-color: #1D1B64;
     }
 `;
+
+export const AddIcon = styled(FaCirclePlus)`
+    font-size: 1.2em;
+    margin-left: 1.5vw;
+    color: #00b400;
+`;
+
+export const DeleteIcon = styled(TiDelete)`
+    font-size: 1.7995em;
+    margin-left: 1.5vw;
+    color: #f00;
+`

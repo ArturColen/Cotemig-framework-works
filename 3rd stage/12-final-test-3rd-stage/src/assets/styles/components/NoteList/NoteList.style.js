@@ -1,9 +1,11 @@
 import styled from 'styled-components';
+import { FaTrash } from "react-icons/fa";
 
 export const NotesList = styled.ul`
 `;
 
 export const NoteListItem = styled.li`
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,25 +26,24 @@ export const NoteText = styled.p`
     justify-content: center;
     flex-direction: row;
     text-align: center;
-    margin-top: 5px;
     color: #0f0f0f;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
 `;
 
 export const DeleteButton = styled.button`
-    margin-left: 30px;
+    margin-left: 1.7vw;
     border: 0;
-    border-radius: 50px;
-    background: transparent;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    margin-top: 5px;
+`;
 
-    img{
-        width: 30px;
-        cursor: pointer;
+export const TrashIcon = styled(FaTrash)`
+    font-size: 1.5em;
+    color: #f00;
+    transition: ease all .5s;
+    cursor: pointer;
+
+    &:hover{
+        opacity: .8;
     }
 `;
